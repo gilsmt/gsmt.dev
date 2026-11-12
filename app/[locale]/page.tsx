@@ -4,10 +4,8 @@ import {
     Check,
     Clipboard,
     Github,
-    Mail,
     MapPin,
     TicketsPlane,
-    Twitter,
     Watch,
 } from "lucide-react";
 import type { Metadata } from "next";
@@ -46,9 +44,9 @@ export default function HomePage() {
                 <Line className="top-7 w-10/11 sm:top-11" />
                 <Line className="-bottom-2" />
                 <div className="flex w-full items-end justify-between">
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-1">
                         <h1 className="text-foreground font-serif text-base font-medium whitespace-nowrap">
-                            Gilberto S
+                            Gilberto S.
                         </h1>
                         <span className="text-foreground relative font-serif text-xs whitespace-pre-wrap">
                             <T>
@@ -58,14 +56,14 @@ export default function HomePage() {
                                 &nbsp;full-stack
                             </T>
                             <Line
-                                className="-top-24 -right-2 md:-right-25"
+                                className="-top-24 -right-2 md:-right-17.5"
                                 variant="vertical"
                             />
                         </span>
                     </div>
                     <div className="flex items-end justify-end gap-4">
                         <div className="text-foreground flex items-center justify-end gap-1 font-serif text-xs whitespace-pre-wrap">
-                            <MapPin className="size-3.5" />
+                            <MapPin className="size-3.5 opacity-90" />
                             <T>Barcelona, Spain</T>
                         </div>
                         <Image
@@ -81,14 +79,13 @@ export default function HomePage() {
                 </div>
             </section>
             <section className="container mt-4.5">
-                <div className="group flex flex-col items-center gap-4 md:flex-row">
+                <div className="group flex flex-col items-center gap-3 md:flex-row">
                     <div className="relative flex h-fit w-full items-center md:w-fit">
                         <Link
                             className="flex h-9 w-full items-center justify-center rounded-3xl border bg-transparent pr-11 pl-4 text-sm whitespace-nowrap group-hover:opacity-75 hover:opacity-100 active:opacity-50 md:w-fit"
                             href="mailto:gsmt.dev+hi@gmail.com"
                             title="Email"
                         >
-                            <Mail className="mr-3 size-4 opacity-50" />
                             <span className="sr-only">
                                 <T>Email</T>
                             </span>
@@ -116,7 +113,7 @@ export default function HomePage() {
                         target="_blank"
                         title="GitHub"
                     >
-                        <Github className="mr-3 size-4 opacity-50" />
+                        <Github className="mr-2.5 size-4 opacity-50" />
                         GitHub
                     </Link>
                     <Link
@@ -126,12 +123,21 @@ export default function HomePage() {
                         target="_blank"
                         title="Twitter"
                     >
-                        <Twitter className="mr-3 size-4 opacity-50" />
-                        X/Twitter
+                        <svg
+                            className="mr-2.5 size-4 opacity-50"
+                            fill="#000000"
+                            role="img"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <title>X</title>
+                            <path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z" />
+                        </svg>
+                        X / Twitter
                     </Link>
                 </div>
             </section>
-            <section className="container mt-20 flex flex-col space-y-6">
+            <section className="container mt-24 flex flex-col space-y-5">
                 <div className="flex items-center justify-between">
                     <h2 className="text-muted-foreground flex-1 truncate text-xs font-semibold">
                         <T>Today</T>
@@ -165,15 +171,15 @@ export default function HomePage() {
                 <T>
                     <p className="text-foreground text-sm">
                         I primarily specialize in web technologies, including:
-                        Web Performance · Accessible Interfaces · Design Systems
-                        · Data visualizations · AI Engineering
+                        Web Performance, Accessible Interfaces, Reliable
+                        Systems, Data Viz, and AI Engineering.
                     </p>
                 </T>
                 <T>
                     <p className="text-foreground text-sm">
-                        I take pride in owning critical parts of a product and
-                        pushing it forward. I believe a strong focus on
-                        fundamentals drives the greatest progress.
+                        Led by curiosity, I take pride in owning critical parts
+                        of a product and pushing it forward. I believe a focus
+                        on fundamentals drives the greatest progress.
                     </p>
                 </T>
                 <T>
@@ -186,16 +192,16 @@ export default function HomePage() {
                     </p>
                 </T>
             </section>
-            <section className="container mt-20">
+            <section className="container mt-24 flex flex-col space-y-5">
                 <T>
-                    <h2 className="text-muted-foreground mt-3 mb-4 flex-1 truncate text-xs font-semibold">
+                    <h2 className="text-muted-foreground flex-1 truncate text-xs font-semibold">
                         Experience
                     </h2>
-                    <p className="text-foreground mb-4 text-sm">
+                    <p className="text-foreground text-sm">
                         Over the past years, I&apos;ve been super lucky to work
                         with some amazing people on a variety of great projects,
-                        ranging from open-source libraries to large-scale
-                        applications that are both challenging and rewarding.
+                        ranging from open-source to large-scale applications
+                        that are both challenging and rewarding.
                     </p>
                 </T>
                 <Carousel>
@@ -213,14 +219,15 @@ export default function HomePage() {
                         </div>
                         <T>
                             <p className="text-foreground text-xs">
-                                Created Cache, a browser-first app that brings
-                                bookmarks and saved content from different
-                                platforms into one searchable AI workspace. It
-                                has over 250 users. I built the data ingestion
-                                pipelines, normalized metadata across sources,
-                                and made search and filtering fast on the
-                                client. A Postgres-backed sync layer keeps it
-                                responsive with large collections.
+                                Created the Cache app, a browser-first
+                                open-source app that brings bookmarks and saved
+                                content from different platforms into one
+                                searchable AI workspace. It has 200+ active
+                                users. I built the data ingestion pipelines,
+                                normalized metadata across sources, and made
+                                search and filtering fast on the client. A
+                                Postgres-backed sync layer keeps it responsive
+                                with large collections.
                             </p>
                         </T>
                     </div>

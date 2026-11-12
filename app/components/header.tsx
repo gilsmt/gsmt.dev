@@ -1,5 +1,4 @@
 import Link from "gt-next/link";
-import { LocaleSelector } from "@/components/locale-selector";
 
 const Header = () => (
     <header className="container flex w-full items-center justify-between">
@@ -11,7 +10,6 @@ const Header = () => (
                 @gsmt
             </span>
         </Link>
-        <LocaleSelector />
     </header>
 );
 

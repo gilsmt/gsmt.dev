@@ -13,30 +13,30 @@
         "type-check": "tsc --noEmit"
     },
     "dependencies": {
-        "@blossom-carousel/react": "1.7.1",
+        "@blossom-carousel/react": "1.8.0",
         "@radix-ui/react-slot": "1.5.0",
-        "cn": "0.5.1",
+        "cn": "0.5.2",
         "copy-to-clipboard": "4.0.2",
         "dayjs": "1.11.23",
-        "gt-next": "11.4.16",
+        "gt-next": "11.4.21",
         "lucide-react": "0.577.0",
-        "motion": "14.9.0",
-        "next": "16.4.3",
+        "motion": "14.13.0",
+        "next": "16.4.6",
         "react": "19.3.1",
         "react-dom": "19.3.1"
     },
     "devDependencies": {
-        "@biomejs/biome": "2.6.4",
-        "@tailwindcss/postcss": "4.3.3",
+        "@biomejs/biome": "2.6.7",
+        "@tailwindcss/postcss": "4.3.5",
         "@types/bun": "1.4.4",
         "@types/node": "26.6.6",
         "@types/react": "19.3.0",
         "@types/react-dom": "19.3.0",
-        "gt": "2.26.11",
+        "gt": "2.28.0",
         "postcss": "^8.5.32",
-        "tailwindcss": "4.3.3",
+        "tailwindcss": "4.3.5",
         "typescript": "7.0.2",
-        "ultracite": "8.1.0"
+        "ultracite": "8.2.0"
     },
     "engines": {
         "node": ">=26.x"
