@@ -18,9 +18,9 @@
         "cn": "0.5.2",
         "copy-to-clipboard": "4.0.2",
         "dayjs": "1.11.23",
-        "gt-next": "11.4.21",
+        "gt-next": "11.4.22",
         "lucide-react": "0.577.0",
-        "motion": "14.13.0",
+        "motion": "14.14.0",
         "next": "16.4.6",
         "react": "19.3.1",
         "react-dom": "19.3.1"
@@ -32,11 +32,11 @@
         "@types/node": "26.6.6",
         "@types/react": "19.3.0",
         "@types/react-dom": "19.3.0",
-        "gt": "2.28.0",
-        "postcss": "^8.5.32",
+        "gt": "2.28.2",
+        "postcss": "^8.5.33",
         "tailwindcss": "4.3.5",
         "typescript": "7.0.2",
-        "ultracite": "8.2.0"
+        "ultracite": "8.2.1"
     },
     "engines": {
         "node": ">=26.x"
