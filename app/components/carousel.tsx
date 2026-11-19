@@ -33,10 +33,7 @@ const Carousel = ({ children }: PropsWithChildren) => {
                         : child
                 )}
             </BlossomCarousel>
-            <BlossomDots
-                className="flex items-center justify-start! gap-1.5! pt-4"
-                for={id}
-            >
+            <BlossomDots className="flex items-center justify-start!" for={id}>
                 {({ index, active }) => (
                     <BlossomDot
                         aria-current={active}
