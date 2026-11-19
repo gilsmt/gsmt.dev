@@ -1,12 +1,8 @@
 "use client";
 
 import { cn } from "cn";
-import {
-    motion,
-    type Transition,
-    type UseInViewOptions,
-    useInView,
-} from "motion/react";
+import type { Transition, UseInViewOptions } from "motion/react";
+import { motion, useInView } from "motion/react";
 import { useEffect, useImperativeHandle, useRef, useState } from "react";
 
 type HighlightDirection = "ltr" | "rtl" | "ttb" | "btt";

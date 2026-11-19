@@ -6,14 +6,8 @@ import {
     BlossomDots,
 } from "@blossom-carousel/react";
 import { cn } from "cn";
-import {
-    Children,
-    cloneElement,
-    type HTMLAttributes,
-    isValidElement,
-    type PropsWithChildren,
-    useId,
-} from "react";
+import type { HTMLAttributes, PropsWithChildren } from "react";
+import { Children, cloneElement, isValidElement, useId } from "react";
 
 const Carousel = ({ children }: PropsWithChildren) => {
     const id = useId().replaceAll(":", "");

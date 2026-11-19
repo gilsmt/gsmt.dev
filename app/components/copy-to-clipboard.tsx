@@ -2,7 +2,8 @@
 
 import { Slot } from "@radix-ui/react-slot";
 import copy from "copy-to-clipboard";
-import { type ComponentProps, useState } from "react";
+import type { ComponentProps } from "react";
+import { useState } from "react";
 
 const CopyToClipboard = ({
     value,
