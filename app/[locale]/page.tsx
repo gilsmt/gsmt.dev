@@ -277,19 +277,6 @@ export default function HomePage() {
                     </div>
                     <div className="flex h-max min-h-full flex-1 flex-col gap-y-4 p-4 md:p-5">
                         <h2 className="text-muted-foreground text-xs font-medium">
-                            Accenture summer internship
-                        </h2>
-                        <T>
-                            <p className="text-foreground text-xs">
-                                Worked with a team to prototype an agentic
-                                CV-parsing and job-matching system, including
-                                LLM orchestration, structured extraction, and
-                                explainable recommendations.
-                            </p>
-                        </T>
-                    </div>
-                    <div className="flex h-max min-h-full flex-1 flex-col gap-y-4 p-4 md:p-5">
-                        <h2 className="text-muted-foreground text-xs font-medium">
                             MinuteDebate
                         </h2>
                         <div className="flex flex-wrap gap-x-4 gap-y-2">
@@ -310,6 +297,37 @@ export default function HomePage() {
                                 low-latency real-time interactions, and an
                                 LLM-powered evaluation pipeline so players
                                 receive feedback the second each turn ends.
+                            </p>
+                        </T>
+                    </div>
+                    <div className="flex h-max min-h-full flex-1 flex-col gap-y-4 p-4 md:p-5">
+                        <h2 className="text-muted-foreground text-xs font-medium">
+                            Conversational Analytics
+                        </h2>
+                        <ExternalLink href="https://github.com/gilsmt/conversational-analytics">
+                            <T>View source</T>
+                        </ExternalLink>
+                        <T>
+                            <p className="text-foreground text-xs">
+                                Built a tool that imports AI conversation
+                                transcripts and uses Gemini to extract
+                                structured insights and answer predefined
+                                questions. You can explore the results in a chat
+                                scoped to a single transcript or the entire
+                                dataset.
+                            </p>
+                        </T>
+                    </div>
+                    <div className="flex h-max min-h-full flex-1 flex-col gap-y-4 p-4 md:p-5">
+                        <h2 className="text-muted-foreground text-xs font-medium">
+                            Accenture 2026 Summer
+                        </h2>
+                        <T>
+                            <p className="text-foreground text-xs">
+                                Worked with a team to prototype an agentic
+                                CV-parsing and job-matching system, including
+                                LLM orchestration, structured extraction, and
+                                explainable recommendations.
                             </p>
                         </T>
                     </div>
